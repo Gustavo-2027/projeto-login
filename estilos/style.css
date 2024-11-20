@@ -70,6 +70,7 @@ main {
 
 #form > h1:hover {
     color: #A832E8;
+    cursor: default;
 }
 
 #form > p {
@@ -99,6 +100,7 @@ main {
 
 .campo > input {
     border: 1px solid #C5ACDA;
+    width: 80%;
     color: #474651;
     border-radius: 5px;
     font-weight: 500;
