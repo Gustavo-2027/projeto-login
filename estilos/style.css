@@ -99,9 +99,10 @@ main {
 }
 
 .campo > input {
-    display: block;
+    display: flex;
+    justify-content: center;
+    
     border: 1px solid #C5ACDA;
-    width: 80%;
     color: #474651;
     border-radius: 5px;
     font-weight: 500;
