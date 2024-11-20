@@ -99,6 +99,7 @@ main {
 }
 
 .campo > input {
+    display: block;
     border: 1px solid #C5ACDA;
     width: 80%;
     color: #474651;
