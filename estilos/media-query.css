@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
     
     body, html {
         background: linear-gradient(to top,#C2ABD8, #A994BC, #907EA0);
@@ -9,6 +9,7 @@
     
     #login {
         width: 80vw;
+        height: 280px;
     }
 
     #img {
@@ -17,13 +18,33 @@
         height: 100%;
     }
 
+    .campo {
+        width: 60%;
+    }
+
     #form {
         float: right;
-        width: 60%;
+        width: 62%;
+    }
+
+    #form > p {
+        margin: 5px 0px;
+    }
+
+    form > input[type=submit] {
+        margin: 0 auto;
+        width: 70%;
+        height: 40px;
+    }
+
+    .btn {
+        margin: 5px auto;
+        width: 70%;
+        height: 40px;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /*PC*/
 
     body, html {
         background: linear-gradient(to top,#C2ABD8, #A994BC, #907EA0);
@@ -31,12 +52,18 @@
 
     #login {
         width: 950px;
+        height: 350px;
     }
 
     #img {
         float: right;
         width: 50%;
         height: 100%;
+    }
+
+    .campo {
+        width: 60%;
+
     }
 
     #form {
@@ -50,5 +77,18 @@
 
     #form > p {
         font-size: 1.2em;
+        margin: 20px 0px;
+    }
+
+    form > input[type=submit] {
+        margin: 0 auto;
+        width: 70%;
+        height: 40px;
+    }
+
+    .btn {
+        margin: 5px auto;
+        width: 70%;
+        height: 40px;
     }
 }

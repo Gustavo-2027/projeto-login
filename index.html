@@ -19,18 +19,16 @@
                     Seja bem vindo novamente. Faça login para acessar sua conta e configurar seu ambiente.
                 </p>
                 <form action="login.php" method="post" autocomplete="on">
-                   <div class="campo"> 
-                        <i class="material-symbols-outlined">face</i>
-                        <input type="email" name="login" id="ilogin" required placeholder="Seu E-mail" autocomplete="email" maxlength="30">
-                        <label for="ilogin">Login</label>
+                   <div class="campo" id="campo1"> 
+                    <label for="ilogin">Login</label>
+                        <input type="email" name="login" id="ilogin" required placeholder=" Seu E-mail" autocomplete="email" maxlength="30">
                    </div>
-                   <div class="campo">
-                        <i class="material-symbols-outlined">key</i>
-                        <input type="password" name="senha" id="isenha" required placeholder="Sua senha" autocomplete="current-password" minlength="8" maxlength="25">
+                   <div class="campo" id="campo2">
                         <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" required placeholder=" Sua senha" autocomplete="current-password" minlength="8" maxlength="25">
                    </div>
                    <input type="submit" value="Entrar">
-                   <a href="esqueci.html">Esqueci a senha <i class="material-symbols-outlined"></i></a>
+                   <a href="esqueci.html" class="btn">Esqueci a senha</a>
                 </form>
             </div>
         </section>
