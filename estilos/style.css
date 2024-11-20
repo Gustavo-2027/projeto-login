@@ -83,7 +83,7 @@ main {
     margin: 5px auto;
     width: 85%;
     height: 40px;
-    display: block;
+    display: contents;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -99,9 +99,6 @@ main {
 }
 
 .campo > input {
-    display: flex;
-    justify-content: center;
-    
     border: 1px solid #C5ACDA;
     color: #474651;
     border-radius: 5px;
