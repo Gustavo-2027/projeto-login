@@ -61,7 +61,7 @@ main {
 }
 
 #form > h1:hover {
-    color: #A832E8;
+    color: rgb(139, 41, 192);
     cursor: default;
 }
 
@@ -69,6 +69,11 @@ main {
     text-align: center;
     color: white;
     font-size: 0.7em;
+}
+
+#form > p:hover {
+    color: rgb(139, 41, 192);
+    cursor: default;
 }
 
 .campo {
@@ -127,7 +132,8 @@ form > input[type=submit]:hover {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #DED838;
+    
+    background-color: #c5c033;
     border-radius: 8px;
     text-decoration: none;
     color: white;

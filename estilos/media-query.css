@@ -52,7 +52,7 @@
 
     #login {
         width: 950px;
-        height: 350px;
+        height: 380px;
     }
 
     #img {
@@ -81,11 +81,10 @@
     }
 
     form > input[type=submit] {
-        margin: 0 auto;
+        margin: 8px auto;
         width: 70%;
         height: 40px;
     }
-
     .btn {
         margin: 5px auto;
         width: 70%;
