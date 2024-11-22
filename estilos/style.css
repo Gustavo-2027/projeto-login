@@ -26,9 +26,10 @@ body, html {
 }
 
 main {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #login {
@@ -47,14 +48,13 @@ main {
 }
 
 #img {
-    display: block;
+    justify-content: center;
     background: url(../img/pexels-anniroenkae-2457284.jpg) no-repeat;
     background-size: cover;
     height: 200px;
 }
 
 #form {
-    display: block;
     padding: 10px;
     
 }
