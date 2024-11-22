@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
     
     body, html {
-        background: linear-gradient(to top,#C2ABD8, #A994BC, #907EA0);
+        background: linear-gradient(to top,#3B145A, #3B145A, #150720);
     }
     
     
@@ -47,7 +47,7 @@
 @media screen and (min-width: 992px) { /*PC*/
 
     body, html {
-        background: linear-gradient(to top,#C2ABD8, #A994BC, #907EA0);
+        background: linear-gradient(to top,#3B145A, #3B145A, #150720);
     }
 
     #login {

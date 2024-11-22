@@ -4,14 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-
-/*
-    roxo claro: #AA94BC / #7E6CA6
-    roxo escuro: #2C277D / #1B1850
-
-*/
-
-
 * {
     padding: 0;
     margin: 0;
@@ -20,7 +12,7 @@
 }
 
 body, html {
-    background:#C5ACDA;
+    background:#270D3C;
     height: 100vh;
     width: 100vw;
 }
@@ -33,10 +25,10 @@ main {
 }
 
 #login {
-    background-color: white;
+    background-color: #242424;
     position: absolute;
-    width: 250px;
-    height: 515px;
+    width: 275px;
+    height: 510px;
     border-radius: 20px;
     overflow: hidden;
     top: 50%;
@@ -61,7 +53,7 @@ main {
 
 #form > h1 {
     font-family: "Oswald", sans-serif;
-    color: #474651;
+    color: #D5D3E0;
     text-shadow: 1px 1px 1px rgba(95, 95, 95, 0.404);
     font-size: 1.8;
     text-align: center;
@@ -75,11 +67,12 @@ main {
 
 #form > p {
     text-align: center;
-    font-size: 0.8em;
+    color: white;
+    font-size: 0.7em;
 }
 
 .campo {
-    background-color: #EAE6E9;
+    background-color: #241F23;
     margin: 5px auto;
     width: 85%;
     height: 40px;
@@ -100,8 +93,9 @@ main {
 
 .campo > input {
     border: 1px solid #C5ACDA;
+    background-color: #2F2F2F;
     max-width: 80%;
-    color: #474651;
+    color: white;
     border-radius: 5px;
     font-weight: 500;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
